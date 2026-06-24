@@ -4,8 +4,8 @@ description = "Abraxius — background MCP bridge and local-to-Studio script syn
 [docusaurus]
 title = "Abraxius"
 tagline = "Abraxius — background MCP bridge and local-to-Studio script sync for Roblox Studio"
-baseUrl = "/"
-organizationName = ""
+baseUrl = "/Abraxius/"
+organizationName = "C0dexCreations"
 projectName = "abraxius"
 
 [navbar]
