@@ -12,7 +12,7 @@
     "status": "node server.js status",
     "example": "node examples/basic.js",
     "docs:dev": "moonwave dev --code .moonwave/stub",
-    "docs:build": "moonwave build --code .moonwave/stub"
+    "docs:build": "moonwave build --fresh --code .moonwave/stub"
   },
   "keywords": [
     "roblox",
