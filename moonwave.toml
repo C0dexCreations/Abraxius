@@ -1,0 +1,28 @@
+title = "Roblox MCP Node"
+description = "Background MCP bridge and local-to-Studio script sync for Roblox Studio"
+
+[docusaurus]
+title = "Roblox MCP Node"
+tagline = "Background MCP bridge and local-to-Studio script sync for Roblox Studio"
+baseUrl = "/"
+organizationName = ""
+projectName = "roblox-mcp-node"
+
+[navbar]
+title = "Roblox MCP Node"
+
+[home]
+enabled = true
+includeReadme = true
+
+[[home.features]]
+title = "Background Bridge"
+description = "Keep a persistent WebSocket bridge to Roblox Studio running in the background so your tools are always one command away."
+
+[[home.features]]
+title = "MCP Tool Proxy"
+description = "Call any Roblox Studio MCP tool, read studio state, and execute Luau directly from JavaScript or the CLI."
+
+[[home.features]]
+title = "Script Sync"
+description = "Pull scripts from Studio into a local project and push edits back with multi_edit, using familiar .server.luau and .client.luau conventions."

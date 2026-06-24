@@ -1,0 +1,34 @@
+{
+  "name": "roblox-mcp-node",
+  "version": "1.0.0",
+  "description": "Background MCP bridge and local-to-Studio script sync for Roblox Studio",
+  "main": "client.js",
+  "bin": {
+    "mcp": "./cli.js"
+  },
+  "scripts": {
+    "start": "node server.js start",
+    "stop": "node server.js stop",
+    "status": "node server.js status",
+    "example": "node examples/basic.js",
+    "docs:dev": "moonwave dev --code .moonwave/stub",
+    "docs:build": "moonwave build --code .moonwave/stub"
+  },
+  "keywords": [
+    "roblox",
+    "mcp",
+    "studio",
+    "websocket",
+    "cli",
+    "sync",
+    "luau"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "moonwave": "^1.4.2"
+  }
+}
